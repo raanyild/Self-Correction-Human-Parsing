@@ -71,12 +71,11 @@ def get_palette(num_cls):
     Returns:
         The color map
     """
-    n = num_cls
-    palette = [0] * (n * 3)
-    for j in range(0, n):
-        palette[j * 3 + 0] = j
-        palette[j * 3 + 1] = j
-        palette[j * 3 + 2] = j
+    #for lip dataset
+
+    palette = [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                12, 12, 12, 11, 11, 11, 13, 13, 13, 9, 9, 9, 10, 10, 10, 5, 5, 5, 6, 6, 6]
+    
     return palette
 
 
